@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "673261275385",
+    "firebase_url": "https://embersolution-8c72e.firebaseio.com",
+    "project_id": "embersolution-8c72e",
+    "storage_bucket": "embersolution-8c72e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673261275385:android:6022f6337c18b4e1b3fa28",
+        "android_client_info": {
+          "package_name": "com.zedlab.embersolutionofficial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673261275385-4h61g43iu0pn8f9o90ik2mgsudgu8tce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhzsBDg8Mx7AkWhcldCKIBNyCjizmI3PQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673261275385-4h61g43iu0pn8f9o90ik2mgsudgu8tce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zedlab.embersolutionofficial.Controllers.Activities.UserScreenActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/user_screen_activity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"/>
+
+    <!-- 1 | Add TabTaLayout to handle tabs -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/user_screen_activity_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:tabIndicatorColor="@color/colorPrimaryDark"
+        app:tabTextColor="#fff"
+        app:tabSelectedTextColor="#000"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/userscreen_activity_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
